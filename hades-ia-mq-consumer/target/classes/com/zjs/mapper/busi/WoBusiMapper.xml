@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zjs.mapper.busi.WoBusiMapper">
+
+	<resultMap id="WoResultMap" type="com.zjs.dto.WoDto">
+		<result column="VWOCODE" 		property="vWocode" 			jdbcType="VARCHAR" />
+		<result column="PK_CORPSEND" 	property="pkCorpSend" 		jdbcType="VARCHAR" />
+		<result column="IITEMNUM" 		property="iItemNum" 		jdbcType="NUMERIC" />
+		<result column="NACTLWEIT" 		property="nActlWeit" 		jdbcType="NUMERIC" />
+		<result column="NFEEWEIT" 		property="nFeeWeit" 		jdbcType="NUMERIC" />
+		<result column="FBALNTYPE" 		property="fBalnType" 		jdbcType="NUMERIC" />
+		<result column="FWOTYPE" 		property="fWoType" 			jdbcType="NUMERIC" />
+		<result column="PK_SETTLECORP" 	property="pkSettleCorp" 	jdbcType="VARCHAR" />
+		<result column="BCOD" 			property="bCod" 			jdbcType="CHAR"    />
+	</resultMap>
+	
+	<select id="selectWo" resultMap="WoResultMap" parameterType="java.lang.String">
+		select 
+			WO.VWOCODE VWOCODE,
+			WO.PK_CORPSEND PK_CORPSEND,
+			WO.IITEMNUM IITEMNUM,
+			WO.NACTLWEIT NACTLWEIT,
+			WO.NFEEWEIT NFEEWEIT,
+			WO.FBALNTYPE FBALNTYPE,
+			MAN.FWOTYPE FWOTYPE,
+			MAN.PK_SETTLECORP PK_SETTLECORP,
+			MAN.BCOD
+  		from PD_WO WO, PD_WOMANAGE MAN
+		where WO.PK_WO = MAN.PK_WO
+		and WO.VWOCODE = #{woCode,jdbcType=VARCHAR}
+		and MAN.BCANLED = 'N'
+		and WO.DR = 0 
+		and MAN.DR = 0
+	</select>
+			
+	
+</mapper>
+
+

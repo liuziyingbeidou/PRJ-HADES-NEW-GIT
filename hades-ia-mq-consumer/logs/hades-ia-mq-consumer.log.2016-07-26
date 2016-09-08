@@ -1,0 +1,269 @@
+2016-07-26 12:20:53,776 [main] INFO HadesIaMqConsumerApplication - Starting HadesIaMqConsumerApplication on DESKTOP-9O8OOC5 with PID 1200 (D:\PRJ-HADES-NEW-ECLIPSE\hades-ia-mq-consumer\target\classes started by Z in D:\PRJ-HADES-NEW-ECLIPSE\hades-ia-mq-consumer)
+2016-07-26 12:20:53,783 [main] INFO HadesIaMqConsumerApplication - No active profile set, falling back to default profiles: default
+2016-07-26 12:20:53,816 [main] INFO AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6a01e23: startup date [Tue Jul 26 12:20:53 CST 2016]; root of context hierarchy
+2016-07-26 12:20:53,971 [background-preinit] INFO Version - HV000001: Hibernate Validator 5.2.4.Final
+2016-07-26 12:20:54,506 [main] WARN ConfigurationClassPostProcessor - Cannot enhance @Configuration bean definition 'myBatisMapperScannerConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2016-07-26 12:20:54,809 [main] INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'myBatisConfig' of type [class com.zjs.conf.MyBatisConfig$$EnhancerBySpringCGLIB$$875b3c76] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-07-26 12:20:55,006 [main] INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'workerDataSource' of type [class org.apache.tomcat.jdbc.pool.DataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-07-26 12:20:55,196 [main] INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'workerSqlSessionFactory' of type [class org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-07-26 12:20:55,209 [main] INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'acceptSignTaskMapper' of type [class org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-07-26 12:20:55,246 [main] INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'busiDataSource' of type [class org.apache.tomcat.jdbc.pool.DataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-07-26 12:20:55,275 [main] INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'busiSqlSessionFactory' of type [class org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-07-26 12:20:55,276 [main] INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'woBusiMapper' of type [class org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-07-26 12:20:55,323 [main] INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$76295aae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-07-26 12:20:55,461 [main] INFO log - Logging initialized @2361ms
+2016-07-26 12:20:55,603 [main] INFO JettyEmbeddedServletContainerFactory - Server initialized with port: 7100
+2016-07-26 12:20:55,606 [main] INFO Server - jetty-9.2.17.v20160517
+2016-07-26 12:20:55,631 [main] INFO application - Initializing Spring embedded WebApplicationContext
+2016-07-26 12:20:55,632 [main] INFO ContextLoader - Root WebApplicationContext: initialization completed in 1816 ms
+2016-07-26 12:20:55,883 [main] INFO ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2016-07-26 12:20:55,886 [main] INFO FilterRegistrationBean - Mapping filter: 'metricFilter' to: [/*]
+2016-07-26 12:20:55,889 [main] INFO FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-07-26 12:20:55,889 [main] INFO FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-07-26 12:20:55,889 [main] INFO FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-07-26 12:20:55,889 [main] INFO FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2016-07-26 12:20:55,889 [main] INFO FilterRegistrationBean - Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2016-07-26 12:20:55,890 [main] INFO FilterRegistrationBean - Mapping filter: 'applicationContextIdFilter' to: [/*]
+2016-07-26 12:20:55,890 [main] INFO ContextHandler - Started o.s.b.c.e.j.JettyEmbeddedWebAppContext@616b241a{/,file:/C:/Users/Z/AppData/Local/Temp/jetty-docbase.3449708502585878219.7100/,AVAILABLE}
+2016-07-26 12:20:55,890 [main] INFO Server - Started @2791ms
+2016-07-26 12:20:56,766 [main] INFO RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6a01e23: startup date [Tue Jul 26 12:20:53 CST 2016]; root of context hierarchy
+2016-07-26 12:20:56,826 [main] INFO RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-07-26 12:20:56,836 [main] INFO RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-07-26 12:20:56,866 [main] INFO SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-07-26 12:20:56,866 [main] INFO SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-07-26 12:20:56,907 [main] INFO SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-07-26 12:20:56,994 [main] INFO application - jolokia: No access restrictor found, access to any MBean is allowed
+2016-07-26 12:20:57,335 [main] INFO EndpointHandlerMapping - Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-07-26 12:20:57,335 [main] INFO EndpointHandlerMapping - Mapped "{[/health || /health.json],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+2016-07-26 12:20:57,336 [main] INFO EndpointHandlerMapping - Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2016-07-26 12:20:57,336 [main] INFO EndpointHandlerMapping - Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-07-26 12:20:57,338 [main] INFO EndpointHandlerMapping - Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-07-26 12:20:57,339 [main] INFO EndpointHandlerMapping - Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-07-26 12:20:57,339 [main] INFO EndpointHandlerMapping - Mapped "{[/jolokia/**]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.actuate.endpoint.mvc.JolokiaMvcEndpoint.handle(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+2016-07-26 12:20:57,343 [main] INFO EndpointHandlerMapping - Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-07-26 12:20:57,345 [main] INFO EndpointHandlerMapping - Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-07-26 12:20:57,346 [main] INFO EndpointHandlerMapping - Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2016-07-26 12:20:57,347 [main] INFO EndpointHandlerMapping - Mapped "{[/env || /env.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-07-26 12:20:57,347 [main] INFO EndpointHandlerMapping - Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-07-26 12:20:57,347 [main] INFO EndpointHandlerMapping - Mapped "{[/info || /info.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2016-07-26 12:20:57,431 [main] INFO AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2016-07-26 12:20:57,438 [main] INFO EndpointMBeanExporter - Registering beans for JMX exposure on startup
+2016-07-26 12:20:57,440 [main] INFO DefaultLifecycleProcessor - Starting beans in phase 0
+2016-07-26 12:20:57,442 [main] INFO EndpointMBeanExporter - Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+2016-07-26 12:20:57,474 [main] INFO EndpointMBeanExporter - Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+2016-07-26 12:20:57,478 [main] INFO EndpointMBeanExporter - Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+2016-07-26 12:20:57,481 [main] INFO EndpointMBeanExporter - Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+2016-07-26 12:20:57,488 [main] INFO EndpointMBeanExporter - Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+2016-07-26 12:20:57,490 [main] INFO EndpointMBeanExporter - Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+2016-07-26 12:20:57,494 [main] INFO EndpointMBeanExporter - Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+2016-07-26 12:20:57,497 [main] INFO EndpointMBeanExporter - Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+2016-07-26 12:20:57,510 [main] INFO EndpointMBeanExporter - Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+2016-07-26 12:20:57,512 [main] INFO EndpointMBeanExporter - Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+2016-07-26 12:20:57,538 [main] INFO application - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-07-26 12:20:57,539 [main] INFO DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2016-07-26 12:20:57,552 [main] INFO DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 12 ms
+2016-07-26 12:20:57,574 [main] INFO ServerConnector - Started ServerConnector@57113309{HTTP/1.1}{0.0.0.0:7100}
+2016-07-26 12:20:57,578 [main] INFO JettyEmbeddedServletContainer - Jetty started on port(s) 7100 (http/1.1)
+2016-07-26 12:20:57,582 [main] INFO HadesIaMqConsumerApplication - Started HadesIaMqConsumerApplication in 4.0 seconds (JVM running for 4.483)
+2016-07-26 13:27:17,376 [ConsumeMessageThread_1] INFO MqTopicConsumer - message body:{"bTs":"2016-07-26 13:26:49","pkSign":null,"wbCode":"A000619175653","fsigntype":null,"fsignclass":null,"deliverier":null,"pkCorpdelr":null,"signer":null,"tsigntime":"2016-07-26 13:26:49","modifier":"PUB_INIT000000259980","modifiedtime":"2016-07-26 13:26:49","custCode":"6242370","dr":"1"}
+2016-07-26 13:27:17,414 [ConsumeMessageThread_1] WARN PooledConnection - Not loading a JDBC driver as driverClassName property is null.
+2016-07-26 13:27:17,576 [ConsumeMessageThread_1] WARN PooledConnection - Not loading a JDBC driver as driverClassName property is null.
+2016-07-26 13:27:17,609 [ConsumeMessageThread_1] WARN PooledConnection - Not loading a JDBC driver as driverClassName property is null.
+2016-07-26 13:27:17,644 [ConsumeMessageThread_1] WARN PooledConnection - Not loading a JDBC driver as driverClassName property is null.
+2016-07-26 13:27:17,683 [ConsumeMessageThread_1] WARN PooledConnection - Not loading a JDBC driver as driverClassName property is null.
+2016-07-26 13:27:17,719 [ConsumeMessageThread_1] WARN PooledConnection - Not loading a JDBC driver as driverClassName property is null.
+2016-07-26 13:27:17,756 [ConsumeMessageThread_1] WARN PooledConnection - Not loading a JDBC driver as driverClassName property is null.
+2016-07-26 13:27:17,790 [ConsumeMessageThread_1] WARN PooledConnection - Not loading a JDBC driver as driverClassName property is null.
+2016-07-26 13:27:17,823 [ConsumeMessageThread_1] WARN PooledConnection - Not loading a JDBC driver as driverClassName property is null.
+2016-07-26 13:27:17,872 [ConsumeMessageThread_1] WARN PooledConnection - Not loading a JDBC driver as driverClassName property is null.
+2016-07-26 13:27:18,031 [ConsumeMessageThread_1] WARN PooledConnection - Not loading a JDBC driver as driverClassName property is null.
+2016-07-26 13:27:18,070 [ConsumeMessageThread_1] WARN PooledConnection - Not loading a JDBC driver as driverClassName property is null.
+2016-07-26 13:27:18,106 [ConsumeMessageThread_1] WARN PooledConnection - Not loading a JDBC driver as driverClassName property is null.
+2016-07-26 13:27:18,143 [ConsumeMessageThread_1] WARN PooledConnection - Not loading a JDBC driver as driverClassName property is null.
+2016-07-26 13:27:18,180 [ConsumeMessageThread_1] WARN PooledConnection - Not loading a JDBC driver as driverClassName property is null.
+2016-07-26 13:27:18,217 [ConsumeMessageThread_1] WARN PooledConnection - Not loading a JDBC driver as driverClassName property is null.
+2016-07-26 13:27:18,254 [ConsumeMessageThread_1] WARN PooledConnection - Not loading a JDBC driver as driverClassName property is null.
+2016-07-26 13:27:18,290 [ConsumeMessageThread_1] WARN PooledConnection - Not loading a JDBC driver as driverClassName property is null.
+2016-07-26 13:27:18,326 [ConsumeMessageThread_1] WARN PooledConnection - Not loading a JDBC driver as driverClassName property is null.
+2016-07-26 13:27:18,359 [ConsumeMessageThread_1] WARN PooledConnection - Not loading a JDBC driver as driverClassName property is null.
+2016-07-26 13:27:18,397 [ConsumeMessageThread_1] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000619175653】生成派送费任务成功！
+2016-07-26 13:27:18,400 [ConsumeMessageThread_1] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000619175653】生成省到省中转费任务成功！
+2016-07-26 13:27:18,402 [ConsumeMessageThread_1] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000619175653】生成新操作费任务成功！
+2016-07-26 13:27:18,405 [ConsumeMessageThread_1] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000619175653】生成运输费任务成功！
+2016-07-26 13:27:18,407 [ConsumeMessageThread_1] INFO MqTopicConsumer - ##mq消费：工作单号为【A000619175653】，执行完成，返回Success
+2016-07-26 13:27:18,408 [ConsumeMessageThread_1] INFO MqTopicConsumer - mq消费：耗时统计：MqTopicConsumer ->工作单号【 A000619175653】耗时【1032】ms
+2016-07-26 13:27:34,676 [ConsumeMessageThread_2] INFO MqTopicConsumer - message body:{"bTs":"2016-07-26 13:27:07","pkSign":"1001A8100000005OVNCX","wbCode":"A000619175653","fsigntype":"2232","fsignclass":"2153","deliverier":"1606A8100000000TED1B","pkCorpdelr":"9950","signer":"魂牵梦萦","tsigntime":"2016-07-26 13:27:06","modifier":"PUB_INIT000000259980","modifiedtime":"2016-07-26 13:27:06","custCode":"6242370","dr":"0"}
+2016-07-26 13:27:34,688 [ConsumeMessageThread_2] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000619175653】生成派送费任务成功！
+2016-07-26 13:27:34,692 [ConsumeMessageThread_2] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000619175653】生成省到省中转费任务成功！
+2016-07-26 13:27:34,700 [ConsumeMessageThread_2] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000619175653】生成新操作费任务成功！
+2016-07-26 13:27:34,706 [ConsumeMessageThread_2] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000619175653】生成运输费任务成功！
+2016-07-26 13:27:34,708 [ConsumeMessageThread_2] INFO MqTopicConsumer - ##mq消费：工作单号为【A000619175653】，执行完成，返回Success
+2016-07-26 13:27:34,708 [ConsumeMessageThread_2] INFO MqTopicConsumer - mq消费：耗时统计：MqTopicConsumer ->工作单号【 A000619175653】耗时【32】ms
+2016-07-26 13:31:28,891 [ConsumeMessageThread_3] INFO MqTopicConsumer - message body:{"bTs":"2016-07-26 13:30:51","pkSign":"1179A8100000000C57ZN","wbCode":"A000448323772","fsigntype":"2232","fsignclass":"2153","deliverier":"1034A81000000004SCYP","pkCorpdelr":"1034","signer":"发生","tsigntime":"2016-07-26 13:30:51","modifier":"1001A8100000005NTMGF","modifiedtime":"2016-07-26 13:30:51","custCode":null,"dr":"0"}
+2016-07-26 13:31:28,902 [ConsumeMessageThread_3] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000448323772】生成派送费任务成功！
+2016-07-26 13:31:28,906 [ConsumeMessageThread_3] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000448323772】生成省到省中转费任务成功！
+2016-07-26 13:31:28,909 [ConsumeMessageThread_3] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000448323772】生成新操作费任务成功！
+2016-07-26 13:31:28,913 [ConsumeMessageThread_3] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000448323772】生成运输费任务成功！
+2016-07-26 13:31:28,914 [ConsumeMessageThread_3] INFO MqTopicConsumer - ##mq消费：工作单号为【A000448323772】，执行完成，返回Success
+2016-07-26 13:31:28,914 [ConsumeMessageThread_3] INFO MqTopicConsumer - mq消费：耗时统计：MqTopicConsumer ->工作单号【 A000448323772】耗时【23】ms
+2016-07-26 13:50:21,250 [ConsumeMessageThread_4] INFO MqTopicConsumer - message body:{"bTs":"2016-07-26 13:49:53","pkSign":"1001A8100000005OVNFN","wbCode":"A000499942063","fsigntype":"2232","fsignclass":"2153","deliverier":"1606A8100000000TED1B","pkCorpdelr":"9950","signer":"魂牵梦萦","tsigntime":"2016-07-26 13:49:53","modifier":"PUB_INIT000000259980","modifiedtime":"2016-07-26 13:49:53","custCode":"6242370","dr":"0"}
+2016-07-26 13:50:21,261 [ConsumeMessageThread_4] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000499942063】生成派送费任务成功！
+2016-07-26 13:50:21,264 [ConsumeMessageThread_4] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000499942063】生成省到省中转费任务成功！
+2016-07-26 13:50:21,267 [ConsumeMessageThread_4] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000499942063】生成新操作费任务成功！
+2016-07-26 13:50:21,272 [ConsumeMessageThread_4] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000499942063】生成运输费任务成功！
+2016-07-26 13:50:21,273 [ConsumeMessageThread_4] INFO MqTopicConsumer - ##mq消费：工作单号为【A000499942063】，执行完成，返回Success
+2016-07-26 13:50:21,273 [ConsumeMessageThread_4] INFO MqTopicConsumer - mq消费：耗时统计：MqTopicConsumer ->工作单号【 A000499942063】耗时【23】ms
+2016-07-26 13:55:32,675 [ConsumeMessageThread_5] INFO MqTopicConsumer - message body:{"bTs":"2016-07-26 13:55:05","pkSign":"1001A8100000005OVNGU","wbCode":"A000878985004","fsigntype":"2232","fsignclass":"2153","deliverier":"1001A810000000QKNRA1","pkCorpdelr":"1001","signer":"dxf","tsigntime":"2016-07-26 13:55:04","modifier":"1001A8100000004L9IW7","modifiedtime":"2016-07-26 13:55:04","custCode":null,"dr":"0"}
+2016-07-26 13:55:32,681 [ConsumeMessageThread_5] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000878985004】生成派送费任务成功！
+2016-07-26 13:55:32,683 [ConsumeMessageThread_5] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000878985004】生成省到省中转费任务成功！
+2016-07-26 13:55:32,686 [ConsumeMessageThread_5] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000878985004】生成新操作费任务成功！
+2016-07-26 13:55:32,689 [ConsumeMessageThread_5] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000878985004】生成运输费任务成功！
+2016-07-26 13:55:32,690 [ConsumeMessageThread_5] INFO MqTopicConsumer - ##mq消费：工作单号为【A000878985004】，执行完成，返回Success
+2016-07-26 13:55:32,690 [ConsumeMessageThread_5] INFO MqTopicConsumer - mq消费：耗时统计：MqTopicConsumer ->工作单号【 A000878985004】耗时【15】ms
+2016-07-26 14:00:10,392 [ConsumeMessageThread_6] INFO MqTopicConsumer - message body:{"bTs":"2016-07-26 13:59:42","pkSign":"1001A8100000005OVNPU","wbCode":"1-A000913902290","fsigntype":"2232","fsignclass":"2153","deliverier":"1073A81000000003IF7E","pkCorpdelr":"1073","signer":"问问","tsigntime":"2016-07-26 13:59:41","modifier":"1001A8100000005M4R2U","modifiedtime":"2016-07-26 13:59:41","custCode":"1434998","dr":"0"}
+2016-07-26 14:00:10,483 [ConsumeMessageThread_6] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【1-A000913902290】生成派送费任务成功！
+2016-07-26 14:00:10,503 [ConsumeMessageThread_6] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【1-A000913902290】生成省到省中转费任务成功！
+2016-07-26 14:00:10,513 [ConsumeMessageThread_6] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【1-A000913902290】生成新操作费任务成功！
+2016-07-26 14:00:10,521 [ConsumeMessageThread_6] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【1-A000913902290】生成运输费任务成功！
+2016-07-26 14:00:10,522 [ConsumeMessageThread_6] INFO MqTopicConsumer - ##mq消费：工作单号为【1-A000913902290】，执行完成，返回Success
+2016-07-26 14:00:10,522 [ConsumeMessageThread_6] INFO MqTopicConsumer - mq消费：耗时统计：MqTopicConsumer ->工作单号【 1-A000913902290】耗时【130】ms
+2016-07-26 14:09:13,473 [ConsumeMessageThread_7] INFO MqTopicConsumer - message body:{"bTs":"2016-07-26 14:08:45","pkSign":"1001A8100000005OVNRI","wbCode":"A000055729133","fsigntype":"2232","fsignclass":"2153","deliverier":"1606A8100000000TED1B","pkCorpdelr":"9950","signer":"埼","tsigntime":"2016-07-26 14:08:44","modifier":"PUB_INIT000000259980","modifiedtime":"2016-07-26 14:08:44","custCode":"6242516","dr":"0"}
+2016-07-26 14:09:13,483 [ConsumeMessageThread_7] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000055729133】生成派送费任务成功！
+2016-07-26 14:09:13,491 [ConsumeMessageThread_7] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000055729133】生成省到省中转费任务成功！
+2016-07-26 14:09:13,501 [ConsumeMessageThread_7] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000055729133】生成新操作费任务成功！
+2016-07-26 14:09:13,505 [ConsumeMessageThread_7] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000055729133】生成运输费任务成功！
+2016-07-26 14:09:13,506 [ConsumeMessageThread_7] INFO MqTopicConsumer - ##mq消费：工作单号为【A000055729133】，执行完成，返回Success
+2016-07-26 14:09:13,506 [ConsumeMessageThread_7] INFO MqTopicConsumer - mq消费：耗时统计：MqTopicConsumer ->工作单号【 A000055729133】耗时【33】ms
+2016-07-26 14:21:27,024 [ConsumeMessageThread_8] INFO MqTopicConsumer - message body:{"pkSign":"1001Z8100000005OVYQD","wbCode":"A000949127535","fsigntype":"2232","fsignclass":"2153","deliverier":"1001A8100000005BA2ZG","pkCorpdelr":"1001","signer":"sdgsdfg","tsigntime":"2016-07-26 14:21:29","modifier":"PUB_INIT000000239321","modifiedtime":"2016-07-26 14:21:29","custCode":null,"bTs":"2016-07-26 14:21:30","dr":"0"}
+2016-07-26 14:21:27,036 [ConsumeMessageThread_8] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000949127535】生成派送费任务成功！
+2016-07-26 14:21:27,043 [ConsumeMessageThread_8] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000949127535】生成省到省中转费任务成功！
+2016-07-26 14:21:27,048 [ConsumeMessageThread_8] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000949127535】生成新操作费任务成功！
+2016-07-26 14:21:27,054 [ConsumeMessageThread_8] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000949127535】生成运输费任务成功！
+2016-07-26 14:21:27,055 [ConsumeMessageThread_8] INFO MqTopicConsumer - ##mq消费：工作单号为【A000949127535】，执行完成，返回Success
+2016-07-26 14:21:27,055 [ConsumeMessageThread_8] INFO MqTopicConsumer - mq消费：耗时统计：MqTopicConsumer ->工作单号【 A000949127535】耗时【31】ms
+2016-07-26 14:26:29,270 [ConsumeMessageThread_9] INFO MqTopicConsumer - message body:{"bTs":"2016-07-26 14:26:01","pkSign":"1001A8100000005OW0AU","wbCode":"A000071818073","fsigntype":"2233","fsignclass":null,"deliverier":null,"pkCorpdelr":"1001","signer":"返货","tsigntime":"2016-07-26 14:26:01","modifier":"PUB_INIT000000110112","modifiedtime":"2016-07-26 14:26:01","custCode":"2665249","dr":"0"}
+2016-07-26 14:26:29,283 [ConsumeMessageThread_9] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000071818073】生成派送费任务成功！
+2016-07-26 14:26:29,287 [ConsumeMessageThread_9] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000071818073】生成省到省中转费任务成功！
+2016-07-26 14:26:29,291 [ConsumeMessageThread_9] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000071818073】生成新操作费任务成功！
+2016-07-26 14:26:29,295 [ConsumeMessageThread_9] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000071818073】生成运输费任务成功！
+2016-07-26 14:26:29,298 [ConsumeMessageThread_9] INFO MqTopicConsumer - ##mq消费：工作单号为【A000071818073】，执行完成，返回Success
+2016-07-26 14:26:29,298 [ConsumeMessageThread_9] INFO MqTopicConsumer - mq消费：耗时统计：MqTopicConsumer ->工作单号【 A000071818073】耗时【28】ms
+2016-07-26 14:27:13,757 [ConsumeMessageThread_10] INFO MqTopicConsumer - message body:{"pkSign":null,"wbCode":"9274781036","fsigntype":"2232","fsignclass":"2153","deliverier":"1606A8100000000TED1B","pkCorpdelr":"9950","signer":"魂牵梦萦 埼","tsigntime":"2016-07-26 14:27:17","modifier":"PUB_INIT000000259980","modifiedtime":null,"custCode":null,"bts":"2016-07-26 14:27:17","dr":"0"}
+2016-07-26 14:27:13,772 [ConsumeMessageThread_10] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【9274781036】生成派送费任务成功！
+2016-07-26 14:27:13,780 [ConsumeMessageThread_10] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【9274781036】生成省到省中转费任务成功！
+2016-07-26 14:27:13,786 [ConsumeMessageThread_10] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【9274781036】生成新操作费任务成功！
+2016-07-26 14:27:13,793 [ConsumeMessageThread_10] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【9274781036】生成运输费任务成功！
+2016-07-26 14:27:13,794 [ConsumeMessageThread_10] INFO MqTopicConsumer - ##mq消费：工作单号为【9274781036】，执行完成，返回Success
+2016-07-26 14:27:13,794 [ConsumeMessageThread_10] INFO MqTopicConsumer - mq消费：耗时统计：MqTopicConsumer ->工作单号【 9274781036】耗时【37】ms
+2016-07-26 14:28:00,029 [ConsumeMessageThread_11] INFO MqTopicConsumer - message body:{"bTs":"2016-07-26 14:27:32","pkSign":"1001A8100000005OW0BI","wbCode":"A000534454045","fsigntype":"2233","fsignclass":null,"deliverier":null,"pkCorpdelr":"1001","signer":"返货","tsigntime":"2016-07-26 14:27:32","modifier":"PUB_INIT000000110112","modifiedtime":"2016-07-26 14:27:32","custCode":"2665249","dr":"0"}
+2016-07-26 14:28:00,041 [ConsumeMessageThread_11] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000534454045】生成派送费任务成功！
+2016-07-26 14:28:00,043 [ConsumeMessageThread_11] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000534454045】生成省到省中转费任务成功！
+2016-07-26 14:28:00,046 [ConsumeMessageThread_11] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000534454045】生成新操作费任务成功！
+2016-07-26 14:28:00,049 [ConsumeMessageThread_11] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000534454045】生成运输费任务成功！
+2016-07-26 14:28:00,051 [ConsumeMessageThread_11] INFO MqTopicConsumer - ##mq消费：工作单号为【A000534454045】，执行完成，返回Success
+2016-07-26 14:28:00,051 [ConsumeMessageThread_11] INFO MqTopicConsumer - mq消费：耗时统计：MqTopicConsumer ->工作单号【 A000534454045】耗时【22】ms
+2016-07-26 14:28:00,882 [ConsumeMessageThread_12] INFO MqTopicConsumer - message body:{"pkSign":"1001Z8100000005OW11G","wbCode":"A000822893702","fsigntype":"2232","fsignclass":"2153","deliverier":"1001A8100000005BA2ZG","pkCorpdelr":"1001","signer":"sdfsd","tsigntime":"2016-07-26 14:24:25","modifier":"PUB_INIT000000239321","modifiedtime":"2016-07-26 14:24:25","custCode":null,"bTs":"2016-07-26 14:28:04","dr":"0"}
+2016-07-26 14:28:00,888 [ConsumeMessageThread_12] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000822893702】生成派送费任务成功！
+2016-07-26 14:28:00,890 [ConsumeMessageThread_12] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000822893702】生成省到省中转费任务成功！
+2016-07-26 14:28:00,893 [ConsumeMessageThread_12] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000822893702】生成新操作费任务成功！
+2016-07-26 14:28:00,896 [ConsumeMessageThread_12] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000822893702】生成运输费任务成功！
+2016-07-26 14:28:00,897 [ConsumeMessageThread_12] INFO MqTopicConsumer - ##mq消费：工作单号为【A000822893702】，执行完成，返回Success
+2016-07-26 14:28:00,897 [ConsumeMessageThread_12] INFO MqTopicConsumer - mq消费：耗时统计：MqTopicConsumer ->工作单号【 A000822893702】耗时【15】ms
+2016-07-26 14:34:03,172 [ConsumeMessageThread_13] INFO MqTopicConsumer - message body:{"pkSign":null,"wbCode":"9267986324","fsigntype":"2233","fsignclass":"2153","deliverier":null,"pkCorpdelr":"1003","signer":"返货","tsigntime":"2016-07-26 14:34:06","modifier":"2016-07-26 14:34:06","modifiedtime":"2016-07-26 14:34:06","custCode":"6240552","bts":"2016-07-26 14:34:06","dr":"0"}
+2016-07-26 14:34:03,185 [ConsumeMessageThread_13] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【9267986324】生成派送费任务成功！
+2016-07-26 14:34:03,199 [ConsumeMessageThread_13] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【9267986324】生成省到省中转费任务成功！
+2016-07-26 14:34:03,207 [ConsumeMessageThread_13] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【9267986324】生成新操作费任务成功！
+2016-07-26 14:34:03,214 [ConsumeMessageThread_13] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【9267986324】生成运输费任务成功！
+2016-07-26 14:34:03,215 [ConsumeMessageThread_13] INFO MqTopicConsumer - ##mq消费：工作单号为【9267986324】，执行完成，返回Success
+2016-07-26 14:34:03,215 [ConsumeMessageThread_13] INFO MqTopicConsumer - mq消费：耗时统计：MqTopicConsumer ->工作单号【 9267986324】耗时【43】ms
+2016-07-26 14:46:31,766 [ConsumeMessageThread_14] INFO MqTopicConsumer - message body:{"bTs":"2016-07-26 14:46:04","pkSign":"1001A8100000005OW0DL","wbCode":"A000843723436","fsigntype":"2232","fsignclass":"2153","deliverier":"1606A8100000000TED1B","pkCorpdelr":"9950","signer":"魂牵梦萦","tsigntime":"2016-07-26 14:46:03","modifier":"PUB_INIT000000259980","modifiedtime":"2016-07-26 14:46:03","custCode":"6242516","dr":"0"}
+2016-07-26 14:46:31,822 [ConsumeMessageThread_14] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000843723436】生成派送费任务成功！
+2016-07-26 14:46:31,857 [ConsumeMessageThread_14] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000843723436】生成省到省中转费任务成功！
+2016-07-26 14:46:31,895 [ConsumeMessageThread_14] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000843723436】生成新操作费任务成功！
+2016-07-26 14:46:31,933 [ConsumeMessageThread_14] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000843723436】生成运输费任务成功！
+2016-07-26 14:46:31,949 [ConsumeMessageThread_14] INFO MqTopicConsumer - ##mq消费：工作单号为【A000843723436】，执行完成，返回Success
+2016-07-26 14:46:31,949 [ConsumeMessageThread_14] INFO MqTopicConsumer - mq消费：耗时统计：MqTopicConsumer ->工作单号【 A000843723436】耗时【183】ms
+2016-07-26 14:54:51,682 [ConsumeMessageThread_15] INFO MqTopicConsumer - message body:{"bTs":"2016-07-26 14:54:24","pkSign":"1192A81000000009ZBYR","wbCode":"A000433821511","fsigntype":"2232","fsignclass":"2153","deliverier":"1199A8100000000GKHEZ","pkCorpdelr":"7689","signer":"请问","tsigntime":"2016-07-26 14:54:22","modifier":"PUB_INIT000000270158","modifiedtime":"2016-07-26 14:54:22","custCode":"6239910","dr":"0"}
+2016-07-26 14:54:51,702 [ConsumeMessageThread_15] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000433821511】生成派送费任务成功！
+2016-07-26 14:54:51,710 [ConsumeMessageThread_15] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000433821511】生成省到省中转费任务成功！
+2016-07-26 14:54:51,724 [ConsumeMessageThread_15] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000433821511】生成新操作费任务成功！
+2016-07-26 14:54:51,736 [ConsumeMessageThread_15] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000433821511】生成运输费任务成功！
+2016-07-26 14:54:51,740 [ConsumeMessageThread_15] INFO MqTopicConsumer - ##mq消费：工作单号为【A000433821511】，执行完成，返回Success
+2016-07-26 14:54:51,740 [ConsumeMessageThread_15] INFO MqTopicConsumer - mq消费：耗时统计：MqTopicConsumer ->工作单号【 A000433821511】耗时【58】ms
+2016-07-26 14:55:26,394 [ConsumeMessageThread_16] INFO MqTopicConsumer - message body:{"pkSign":null,"wbCode":"A000962307732","fsigntype":"2233","fsignclass":"2153","deliverier":null,"pkCorpdelr":"1190","signer":"返货","tsigntime":"2016-07-26 14:55:29","modifier":"2016-07-26 14:55:29","modifiedtime":"2016-07-26 14:55:29","custCode":"6241997","bts":"2016-07-26 14:55:30","dr":"0"}
+2016-07-26 14:55:26,658 [ConsumeMessageThread_16] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000962307732】生成派送费任务成功！
+2016-07-26 14:55:26,670 [ConsumeMessageThread_16] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000962307732】生成省到省中转费任务成功！
+2016-07-26 14:55:26,684 [ConsumeMessageThread_16] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000962307732】生成新操作费任务成功！
+2016-07-26 14:55:26,696 [ConsumeMessageThread_16] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000962307732】生成运输费任务成功！
+2016-07-26 14:55:26,702 [ConsumeMessageThread_16] INFO MqTopicConsumer - ##mq消费：工作单号为【A000962307732】，执行完成，返回Success
+2016-07-26 14:55:26,702 [ConsumeMessageThread_16] INFO MqTopicConsumer - mq消费：耗时统计：MqTopicConsumer ->工作单号【 A000962307732】耗时【308】ms
+2016-07-26 14:57:01,793 [ConsumeMessageThread_17] INFO MqTopicConsumer - message body:{"bTs":"2016-07-26 14:56:34","pkSign":"1192A81000000009ZBZ4","wbCode":"A000890086665","fsigntype":"2232","fsignclass":"2153","deliverier":"1192A81000000000ST2I","pkCorpdelr":"1192","signer":"请问","tsigntime":"2016-07-26 14:56:33","modifier":"PUB_INIT000000270158","modifiedtime":"2016-07-26 14:56:33","custCode":null,"dr":"0"}
+2016-07-26 14:57:01,813 [ConsumeMessageThread_17] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000890086665】生成派送费任务成功！
+2016-07-26 14:57:01,823 [ConsumeMessageThread_17] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000890086665】生成省到省中转费任务成功！
+2016-07-26 14:57:01,837 [ConsumeMessageThread_17] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000890086665】生成新操作费任务成功！
+2016-07-26 14:57:01,849 [ConsumeMessageThread_17] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000890086665】生成运输费任务成功！
+2016-07-26 14:57:01,852 [ConsumeMessageThread_17] INFO MqTopicConsumer - ##mq消费：工作单号为【A000890086665】，执行完成，返回Success
+2016-07-26 14:57:01,852 [ConsumeMessageThread_17] INFO MqTopicConsumer - mq消费：耗时统计：MqTopicConsumer ->工作单号【 A000890086665】耗时【59】ms
+2016-07-26 15:36:39,650 [ConsumeMessageThread_18] INFO MqTopicConsumer - message body:{"bTs":"2016-07-26 15:36:12","pkSign":"1001A8100000005OW5QM","wbCode":"9231081764","fsigntype":"2232","fsignclass":"2153","deliverier":"1001A8100000005N2A40","pkCorpdelr":"1001","signer":"发给","tsigntime":"2016-07-26 15:36:11","modifier":"PUB_INIT000000227578","modifiedtime":"2016-07-26 15:36:11","custCode":null,"dr":"0"}
+2016-07-26 15:36:39,673 [ConsumeMessageThread_18] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【9231081764】生成派送费任务成功！
+2016-07-26 15:36:39,677 [ConsumeMessageThread_18] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【9231081764】生成省到省中转费任务成功！
+2016-07-26 15:36:39,681 [ConsumeMessageThread_18] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【9231081764】生成新操作费任务成功！
+2016-07-26 15:36:39,683 [ConsumeMessageThread_18] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【9231081764】生成运输费任务成功！
+2016-07-26 15:36:39,685 [ConsumeMessageThread_18] INFO MqTopicConsumer - ##mq消费：工作单号为【9231081764】，执行完成，返回Success
+2016-07-26 15:36:39,685 [ConsumeMessageThread_18] INFO MqTopicConsumer - mq消费：耗时统计：MqTopicConsumer ->工作单号【 9231081764】耗时【35】ms
+2016-07-26 15:44:34,501 [ConsumeMessageThread_19] INFO MqTopicConsumer - message body:{"pkSign":null,"wbCode":"9222441966","fsigntype":"2232","fsignclass":"2153","deliverier":"PKSTAFF0000000001015","pkCorpdelr":"1001","signer":"江湖论剑","tsigntime":"2016-07-26 15:44:38","modifier":"PUB_INIT000000227578","modifiedtime":null,"custCode":null,"bts":"2016-07-26 15:44:38","dr":"0"}
+2016-07-26 15:44:34,517 [ConsumeMessageThread_19] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【9222441966】生成派送费任务成功！
+2016-07-26 15:44:34,523 [ConsumeMessageThread_19] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【9222441966】生成省到省中转费任务成功！
+2016-07-26 15:44:34,531 [ConsumeMessageThread_19] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【9222441966】生成新操作费任务成功！
+2016-07-26 15:44:34,537 [ConsumeMessageThread_19] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【9222441966】生成运输费任务成功！
+2016-07-26 15:44:34,538 [ConsumeMessageThread_19] INFO MqTopicConsumer - ##mq消费：工作单号为【9222441966】，执行完成，返回Success
+2016-07-26 15:44:34,538 [ConsumeMessageThread_19] INFO MqTopicConsumer - mq消费：耗时统计：MqTopicConsumer ->工作单号【 9222441966】耗时【37】ms
+2016-07-26 15:56:33,709 [ConsumeMessageThread_20] INFO MqTopicConsumer - message body:{"bTs":"2016-07-26 15:56:06","pkSign":"1001A8100000005OW8SX","wbCode":"A000165138971","fsigntype":"2232","fsignclass":"2153","deliverier":"1606A8100000000TED1B","pkCorpdelr":"9950","signer":"魂牵梦萦","tsigntime":"2016-07-26 15:56:05","modifier":"PUB_INIT000000259980","modifiedtime":"2016-07-26 15:56:05","custCode":"6242516","dr":"0"}
+2016-07-26 15:56:33,721 [ConsumeMessageThread_20] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000165138971】生成派送费任务成功！
+2016-07-26 15:56:33,730 [ConsumeMessageThread_20] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000165138971】生成省到省中转费任务成功！
+2016-07-26 15:56:33,738 [ConsumeMessageThread_20] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000165138971】生成新操作费任务成功！
+2016-07-26 15:56:33,743 [ConsumeMessageThread_20] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000165138971】生成运输费任务成功！
+2016-07-26 15:56:33,745 [ConsumeMessageThread_20] INFO MqTopicConsumer - ##mq消费：工作单号为【A000165138971】，执行完成，返回Success
+2016-07-26 15:56:33,745 [ConsumeMessageThread_20] INFO MqTopicConsumer - mq消费：耗时统计：MqTopicConsumer ->工作单号【 A000165138971】耗时【36】ms
+2016-07-26 16:21:16,126 [ConsumeMessageThread_1] INFO MqTopicConsumer - message body:{"bTs":"2016-07-26 16:20:48","pkSign":"1001A8100000005OWAB5","wbCode":"A000842726253","fsigntype":"2232","fsignclass":"2153","deliverier":"PUB_INIT000000018057","pkCorpdelr":"1003","signer":"问问","tsigntime":"2016-07-26 16:20:47","modifier":"1001A8100000005M4R2U","modifiedtime":"2016-07-26 16:20:47","custCode":null,"dr":"0"}
+2016-07-26 16:21:16,135 [ConsumeMessageThread_1] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000842726253】生成派送费任务成功！
+2016-07-26 16:21:16,138 [ConsumeMessageThread_1] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000842726253】生成省到省中转费任务成功！
+2016-07-26 16:21:16,143 [ConsumeMessageThread_1] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000842726253】生成新操作费任务成功！
+2016-07-26 16:21:16,146 [ConsumeMessageThread_1] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000842726253】生成运输费任务成功！
+2016-07-26 16:21:16,147 [ConsumeMessageThread_1] INFO MqTopicConsumer - ##mq消费：工作单号为【A000842726253】，执行完成，返回Success
+2016-07-26 16:21:16,147 [ConsumeMessageThread_1] INFO MqTopicConsumer - mq消费：耗时统计：MqTopicConsumer ->工作单号【 A000842726253】耗时【21】ms
+2016-07-26 17:23:07,153 [ConsumeMessageThread_2] INFO MqTopicConsumer - message body:{"bTs":"2016-07-26 17:22:39","pkSign":"1192A81000000009ZFTO","wbCode":"A000347338305","fsigntype":"2232","fsignclass":"2153","deliverier":"1192A81000000000ST2I","pkCorpdelr":"1192","signer":"为","tsigntime":"2016-07-26 17:22:39","modifier":"PUB_INIT000000270158","modifiedtime":"2016-07-26 17:22:39","custCode":null,"dr":"0"}
+2016-07-26 17:23:07,170 [ConsumeMessageThread_2] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000347338305】生成派送费任务成功！
+2016-07-26 17:23:07,174 [ConsumeMessageThread_2] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000347338305】生成省到省中转费任务成功！
+2016-07-26 17:23:07,176 [ConsumeMessageThread_2] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000347338305】生成新操作费任务成功！
+2016-07-26 17:23:07,178 [ConsumeMessageThread_2] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000347338305】生成运输费任务成功！
+2016-07-26 17:23:07,179 [ConsumeMessageThread_2] INFO MqTopicConsumer - ##mq消费：工作单号为【A000347338305】，执行完成，返回Success
+2016-07-26 17:23:07,179 [ConsumeMessageThread_2] INFO MqTopicConsumer - mq消费：耗时统计：MqTopicConsumer ->工作单号【 A000347338305】耗时【26】ms
+2016-07-26 17:49:36,361 [ConsumeMessageThread_3] INFO MqTopicConsumer - message body:{"bTs":"2016-07-26 17:49:09","pkSign":"1001A8100000005OWF10","wbCode":"A000334623752","fsigntype":"2232","fsignclass":"2153","deliverier":"1606A8100000000TED1B","pkCorpdelr":"9950","signer":"魂牵梦萦","tsigntime":"2016-07-26 17:49:08","modifier":"PUB_INIT000000259980","modifiedtime":"2016-07-26 17:49:08","custCode":null,"dr":"0"}
+2016-07-26 17:49:36,366 [ConsumeMessageThread_3] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000334623752】生成派送费任务成功！
+2016-07-26 17:49:36,368 [ConsumeMessageThread_3] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000334623752】生成省到省中转费任务成功！
+2016-07-26 17:49:36,371 [ConsumeMessageThread_3] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000334623752】生成新操作费任务成功！
+2016-07-26 17:49:36,374 [ConsumeMessageThread_3] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000334623752】生成运输费任务成功！
+2016-07-26 17:49:36,375 [ConsumeMessageThread_3] INFO MqTopicConsumer - ##mq消费：工作单号为【A000334623752】，执行完成，返回Success
+2016-07-26 17:49:36,375 [ConsumeMessageThread_3] INFO MqTopicConsumer - mq消费：耗时统计：MqTopicConsumer ->工作单号【 A000334623752】耗时【14】ms
+2016-07-26 18:45:34,512 [ConsumeMessageThread_4] INFO MqTopicConsumer - message body:{"pkSign":null,"wbCode":"A000739553754","fsigntype":"2233","fsignclass":"2153","deliverier":null,"pkCorpdelr":"4024","signer":"返货","tsigntime":"2016-07-26 18:45:38","modifier":"2016-07-26 18:45:38","modifiedtime":"2016-07-26 18:45:38","custCode":"6240552","bts":"2016-07-26 18:45:38","dr":"0"}
+2016-07-26 18:45:34,542 [ConsumeMessageThread_4] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000739553754】生成派送费任务成功！
+2016-07-26 18:45:34,547 [ConsumeMessageThread_4] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000739553754】生成省到省中转费任务成功！
+2016-07-26 18:45:34,551 [ConsumeMessageThread_4] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000739553754】生成新操作费任务成功！
+2016-07-26 18:45:34,556 [ConsumeMessageThread_4] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000739553754】生成运输费任务成功！
+2016-07-26 18:45:34,557 [ConsumeMessageThread_4] INFO MqTopicConsumer - ##mq消费：工作单号为【A000739553754】，执行完成，返回Success
+2016-07-26 18:45:34,557 [ConsumeMessageThread_4] INFO MqTopicConsumer - mq消费：耗时统计：MqTopicConsumer ->工作单号【 A000739553754】耗时【45】ms
+2016-07-26 18:46:06,222 [ConsumeMessageThread_5] INFO MqTopicConsumer - message body:{"bTs":"2016-07-26 18:45:38","pkSign":"1222A81000000006I5TB","wbCode":"1-A000739553754","fsigntype":"2232","fsignclass":"2153","deliverier":"PUB_INIT000000033051","pkCorpdelr":"4024","signer":"顶戴","tsigntime":"2016-07-26 18:45:38","modifier":"PUB_INIT000000249849","modifiedtime":"2016-07-26 18:45:38","custCode":"6240552","dr":"0"}
+2016-07-26 18:46:06,230 [ConsumeMessageThread_5] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【1-A000739553754】生成派送费任务成功！
+2016-07-26 18:46:06,232 [ConsumeMessageThread_5] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【1-A000739553754】生成省到省中转费任务成功！
+2016-07-26 18:46:06,235 [ConsumeMessageThread_5] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【1-A000739553754】生成新操作费任务成功！
+2016-07-26 18:46:06,237 [ConsumeMessageThread_5] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【1-A000739553754】生成运输费任务成功！
+2016-07-26 18:46:06,239 [ConsumeMessageThread_5] INFO MqTopicConsumer - ##mq消费：工作单号为【1-A000739553754】，执行完成，返回Success
+2016-07-26 18:46:06,239 [ConsumeMessageThread_5] INFO MqTopicConsumer - mq消费：耗时统计：MqTopicConsumer ->工作单号【 1-A000739553754】耗时【17】ms
+2016-07-26 19:34:23,173 [ConsumeMessageThread_6] INFO MqTopicConsumer - message body:{"bTs":"2016-07-26 19:33:55","pkSign":"1001A8100000005OWF82","wbCode":"A000714147626","fsigntype":"2233","fsignclass":null,"deliverier":null,"pkCorpdelr":"1001","signer":"返货","tsigntime":"2016-07-26 19:33:55","modifier":"PUB_INIT000000110112","modifiedtime":"2016-07-26 19:33:55","custCode":"6241997","dr":"0"}
+2016-07-26 19:34:23,184 [ConsumeMessageThread_6] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000714147626】生成派送费任务成功！
+2016-07-26 19:34:23,190 [ConsumeMessageThread_6] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000714147626】生成省到省中转费任务成功！
+2016-07-26 19:34:23,194 [ConsumeMessageThread_6] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000714147626】生成新操作费任务成功！
+2016-07-26 19:34:23,197 [ConsumeMessageThread_6] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000714147626】生成运输费任务成功！
+2016-07-26 19:34:23,199 [ConsumeMessageThread_6] INFO MqTopicConsumer - ##mq消费：工作单号为【A000714147626】，执行完成，返回Success
+2016-07-26 19:34:23,199 [ConsumeMessageThread_6] INFO MqTopicConsumer - mq消费：耗时统计：MqTopicConsumer ->工作单号【 A000714147626】耗时【26】ms

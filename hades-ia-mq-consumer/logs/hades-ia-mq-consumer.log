@@ -1,0 +1,133 @@
+2016-07-27 09:37:56,852 [ConsumeMessageThread_7] INFO MqTopicConsumer - message body:{"pkSign":null,"wbCode":"9252858860","fsigntype":"2233","fsignclass":"2153","deliverier":null,"pkCorpdelr":"1222","signer":"返货","tsigntime":"2016-07-27 09:38:02","modifier":"2016-07-27 09:38:02","modifiedtime":"2016-07-27 09:38:02","custCode":"6240552","bts":"2016-07-27 09:38:02","dr":"0"}
+2016-07-27 09:37:56,894 [ConsumeMessageThread_7] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【9252858860】生成派送费任务成功！
+2016-07-27 09:37:56,903 [ConsumeMessageThread_7] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【9252858860】生成省到省中转费任务成功！
+2016-07-27 09:37:56,961 [ConsumeMessageThread_7] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【9252858860】生成新操作费任务成功！
+2016-07-27 09:37:56,969 [ConsumeMessageThread_7] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【9252858860】生成运输费任务成功！
+2016-07-27 09:37:56,971 [ConsumeMessageThread_7] INFO MqTopicConsumer - ##mq消费：工作单号为【9252858860】，执行完成，返回Success
+2016-07-27 09:37:56,971 [ConsumeMessageThread_7] INFO MqTopicConsumer - mq消费：耗时统计：MqTopicConsumer ->工作单号【 9252858860】耗时【119】ms
+2016-07-27 09:51:27,359 [ConsumeMessageThread_8] INFO MqTopicConsumer - message body:{"bTs":"2016-07-27 09:51:00","pkSign":"1003A8100000000N8I8T","wbCode":"9236196594","fsigntype":"2232","fsignclass":"2153","deliverier":"PUB_INIT000000051966","pkCorpdelr":"1068","signer":"sd","tsigntime":"2016-07-27 09:51:00","modifier":"PUB_INIT000000220427","modifiedtime":"2016-07-27 09:51:00","custCode":null,"dr":"0"}
+2016-07-27 09:51:27,365 [ConsumeMessageThread_8] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【9236196594】生成派送费任务成功！
+2016-07-27 09:51:27,366 [ConsumeMessageThread_8] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【9236196594】生成省到省中转费任务成功！
+2016-07-27 09:51:27,368 [ConsumeMessageThread_8] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【9236196594】生成新操作费任务成功！
+2016-07-27 09:51:27,370 [ConsumeMessageThread_8] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【9236196594】生成运输费任务成功！
+2016-07-27 09:51:27,370 [ConsumeMessageThread_8] INFO MqTopicConsumer - ##mq消费：工作单号为【9236196594】，执行完成，返回Success
+2016-07-27 09:51:27,370 [ConsumeMessageThread_8] INFO MqTopicConsumer - mq消费：耗时统计：MqTopicConsumer ->工作单号【 9236196594】耗时【11】ms
+2016-07-27 09:54:06,400 [ConsumeMessageThread_9] INFO MqTopicConsumer - message body:{"bTs":"2016-07-27 09:53:39","pkSign":"1003A8100000000N8I90","wbCode":"9236563420","fsigntype":"2232","fsignclass":"2153","deliverier":"PUB_INIT000000018713","pkCorpdelr":"1003","signer":"ss","tsigntime":"2016-07-27 09:53:39","modifier":"PUB_INIT000000220427","modifiedtime":"2016-07-27 09:53:39","custCode":"6239910","dr":"0"}
+2016-07-27 09:54:06,407 [ConsumeMessageThread_9] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【9236563420】生成派送费任务成功！
+2016-07-27 09:54:06,410 [ConsumeMessageThread_9] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【9236563420】生成省到省中转费任务成功！
+2016-07-27 09:54:06,412 [ConsumeMessageThread_9] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【9236563420】生成新操作费任务成功！
+2016-07-27 09:54:06,415 [ConsumeMessageThread_9] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【9236563420】生成运输费任务成功！
+2016-07-27 09:54:06,416 [ConsumeMessageThread_9] INFO MqTopicConsumer - ##mq消费：工作单号为【9236563420】，执行完成，返回Success
+2016-07-27 09:54:06,416 [ConsumeMessageThread_9] INFO MqTopicConsumer - mq消费：耗时统计：MqTopicConsumer ->工作单号【 9236563420】耗时【16】ms
+2016-07-27 10:05:02,002 [ConsumeMessageThread_10] INFO MqTopicConsumer - message body:{"bTs":"2016-07-27 10:04:35","pkSign":"1003A8100000000N8IA6","wbCode":"9271463132","fsigntype":"2232","fsignclass":"2153","deliverier":"PUB_INIT000000018056","pkCorpdelr":"1003","signer":"sdf","tsigntime":"2016-07-27 10:04:35","modifier":"PUB_INIT000000220427","modifiedtime":"2016-07-27 10:04:35","custCode":"6239910","dr":"0"}
+2016-07-27 10:05:02,023 [ConsumeMessageThread_10] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【9271463132】生成派送费任务成功！
+2016-07-27 10:05:02,026 [ConsumeMessageThread_10] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【9271463132】生成省到省中转费任务成功！
+2016-07-27 10:05:02,028 [ConsumeMessageThread_10] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【9271463132】生成新操作费任务成功！
+2016-07-27 10:05:02,031 [ConsumeMessageThread_10] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【9271463132】生成运输费任务成功！
+2016-07-27 10:05:02,032 [ConsumeMessageThread_10] INFO MqTopicConsumer - ##mq消费：工作单号为【9271463132】，执行完成，返回Success
+2016-07-27 10:05:02,032 [ConsumeMessageThread_10] INFO MqTopicConsumer - mq消费：耗时统计：MqTopicConsumer ->工作单号【 9271463132】耗时【30】ms
+2016-07-27 10:35:02,374 [ConsumeMessageThread_11] INFO MqTopicConsumer - message body:{"bTs":"2016-07-27 10:34:36","pkSign":"1003A8100000000N8KIQ","wbCode":"9250725772","fsigntype":"2232","fsignclass":"2153","deliverier":"PUB_INIT000000018056","pkCorpdelr":"1003","signer":"adf","tsigntime":"2016-07-27 10:34:35","modifier":"PUB_INIT000000220427","modifiedtime":"2016-07-27 10:34:35","custCode":"6239910","dr":"0"}
+2016-07-27 10:35:02,395 [ConsumeMessageThread_11] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【9250725772】生成派送费任务成功！
+2016-07-27 10:35:02,397 [ConsumeMessageThread_11] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【9250725772】生成省到省中转费任务成功！
+2016-07-27 10:35:02,399 [ConsumeMessageThread_11] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【9250725772】生成新操作费任务成功！
+2016-07-27 10:35:02,400 [ConsumeMessageThread_11] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【9250725772】生成运输费任务成功！
+2016-07-27 10:35:02,402 [ConsumeMessageThread_11] INFO MqTopicConsumer - ##mq消费：工作单号为【9250725772】，执行完成，返回Success
+2016-07-27 10:35:02,402 [ConsumeMessageThread_11] INFO MqTopicConsumer - mq消费：耗时统计：MqTopicConsumer ->工作单号【 9250725772】耗时【28】ms
+2016-07-27 10:44:56,084 [ConsumeMessageThread_12] INFO MqTopicConsumer - message body:{"bTs":"2016-07-27 10:44:29","pkSign":"1003A8100000000N8KJI","wbCode":"9269695551","fsigntype":"2232","fsignclass":"2153","deliverier":"PUB_INIT000000018056","pkCorpdelr":"1003","signer":"ss","tsigntime":"2016-07-27 10:44:28","modifier":"PUB_INIT000000220427","modifiedtime":"2016-07-27 10:44:28","custCode":null,"dr":"0"}
+2016-07-27 10:44:56,099 [ConsumeMessageThread_12] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【9269695551】生成派送费任务成功！
+2016-07-27 10:44:56,112 [ConsumeMessageThread_12] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【9269695551】生成省到省中转费任务成功！
+2016-07-27 10:44:56,118 [ConsumeMessageThread_12] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【9269695551】生成新操作费任务成功！
+2016-07-27 10:44:56,124 [ConsumeMessageThread_12] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【9269695551】生成运输费任务成功！
+2016-07-27 10:44:56,125 [ConsumeMessageThread_12] INFO MqTopicConsumer - ##mq消费：工作单号为【9269695551】，执行完成，返回Success
+2016-07-27 10:44:56,125 [ConsumeMessageThread_12] INFO MqTopicConsumer - mq消费：耗时统计：MqTopicConsumer ->工作单号【 9269695551】耗时【42】ms
+2016-07-27 11:20:11,996 [ConsumeMessageThread_13] INFO MqTopicConsumer - message body:{"bTs":"2016-07-27 11:19:45","pkSign":"1222A81000000006I7CO","wbCode":"A000010685496","fsigntype":"2232","fsignclass":"2153","deliverier":"PUB_INIT000000033051","pkCorpdelr":"4024","signer":"顶戴","tsigntime":"2016-07-27 11:19:45","modifier":"PUB_INIT000000249849","modifiedtime":"2016-07-27 11:19:45","custCode":"6240552","dr":"0"}
+2016-07-27 11:20:12,027 [ConsumeMessageThread_13] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000010685496】生成派送费任务成功！
+2016-07-27 11:20:12,030 [ConsumeMessageThread_13] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000010685496】生成省到省中转费任务成功！
+2016-07-27 11:20:12,032 [ConsumeMessageThread_13] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000010685496】生成新操作费任务成功！
+2016-07-27 11:20:12,034 [ConsumeMessageThread_13] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000010685496】生成运输费任务成功！
+2016-07-27 11:20:12,036 [ConsumeMessageThread_13] INFO MqTopicConsumer - ##mq消费：工作单号为【A000010685496】，执行完成，返回Success
+2016-07-27 11:20:12,036 [ConsumeMessageThread_13] INFO MqTopicConsumer - mq消费：耗时统计：MqTopicConsumer ->工作单号【 A000010685496】耗时【41】ms
+2016-07-27 11:23:41,247 [ConsumeMessageThread_14] INFO MqTopicConsumer - message body:{"pkSign":null,"wbCode":"1-A000254531981","fsigntype":"2232","fsignclass":"2153","deliverier":"1222A8100000000U6DLP","pkCorpdelr":"1222","signer":"张三","tsigntime":"2016-07-27 11:23:46","modifier":"PUB_INIT000000249849","modifiedtime":null,"custCode":"6240552","bts":"2016-07-27 11:23:46","dr":"0"}
+2016-07-27 11:23:41,268 [ConsumeMessageThread_14] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【1-A000254531981】生成派送费任务成功！
+2016-07-27 11:23:41,274 [ConsumeMessageThread_14] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【1-A000254531981】生成省到省中转费任务成功！
+2016-07-27 11:23:41,282 [ConsumeMessageThread_14] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【1-A000254531981】生成新操作费任务成功！
+2016-07-27 11:23:41,295 [ConsumeMessageThread_14] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【1-A000254531981】生成运输费任务成功！
+2016-07-27 11:23:41,296 [ConsumeMessageThread_14] INFO MqTopicConsumer - ##mq消费：工作单号为【1-A000254531981】，执行完成，返回Success
+2016-07-27 11:23:41,296 [ConsumeMessageThread_14] INFO MqTopicConsumer - mq消费：耗时统计：MqTopicConsumer ->工作单号【 1-A000254531981】耗时【49】ms
+2016-07-27 11:24:41,609 [ConsumeMessageThread_15] INFO MqTopicConsumer - message body:{"pkSign":null,"wbCode":"A000855903005","fsigntype":"2233","fsignclass":"2153","deliverier":null,"pkCorpdelr":"4024","signer":"返货","tsigntime":"2016-07-27 11:24:46","modifier":"2016-07-27 11:24:46","modifiedtime":"2016-07-27 11:24:46","custCode":"6240552","bts":"2016-07-27 11:24:46","dr":"0"}
+2016-07-27 11:24:41,623 [ConsumeMessageThread_15] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000855903005】生成派送费任务成功！
+2016-07-27 11:24:41,633 [ConsumeMessageThread_15] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000855903005】生成省到省中转费任务成功！
+2016-07-27 11:24:41,645 [ConsumeMessageThread_15] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000855903005】生成新操作费任务成功！
+2016-07-27 11:24:41,656 [ConsumeMessageThread_15] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000855903005】生成运输费任务成功！
+2016-07-27 11:24:41,660 [ConsumeMessageThread_15] INFO MqTopicConsumer - ##mq消费：工作单号为【A000855903005】，执行完成，返回Success
+2016-07-27 11:24:41,660 [ConsumeMessageThread_15] INFO MqTopicConsumer - mq消费：耗时统计：MqTopicConsumer ->工作单号【 A000855903005】耗时【51】ms
+2016-07-27 13:37:38,860 [ConsumeMessageThread_16] INFO MqTopicConsumer - message body:{"bTs":"2016-07-27 13:37:12","pkSign":"1222A81000000006I7E5","wbCode":"A000476367135","fsigntype":"2232","fsignclass":"2153","deliverier":"PUB_INIT000000033051","pkCorpdelr":"4024","signer":"顶戴","tsigntime":"2016-07-27 13:37:12","modifier":"PUB_INIT000000249849","modifiedtime":"2016-07-27 13:37:12","custCode":"6240552","dr":"0"}
+2016-07-27 13:37:38,881 [ConsumeMessageThread_16] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000476367135】生成派送费任务成功！
+2016-07-27 13:37:38,882 [ConsumeMessageThread_16] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000476367135】生成省到省中转费任务成功！
+2016-07-27 13:37:38,884 [ConsumeMessageThread_16] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000476367135】生成新操作费任务成功！
+2016-07-27 13:37:38,885 [ConsumeMessageThread_16] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000476367135】生成运输费任务成功！
+2016-07-27 13:37:38,887 [ConsumeMessageThread_16] INFO MqTopicConsumer - ##mq消费：工作单号为【A000476367135】，执行完成，返回Success
+2016-07-27 13:37:38,887 [ConsumeMessageThread_16] INFO MqTopicConsumer - mq消费：耗时统计：MqTopicConsumer ->工作单号【 A000476367135】耗时【27】ms
+2016-07-27 13:45:17,271 [ConsumeMessageThread_17] INFO MqTopicConsumer - message body:{"bTs":"2016-07-27 13:44:51","pkSign":"1222A81000000006I7ED","wbCode":"A000276823385","fsigntype":"2232","fsignclass":"2153","deliverier":"1222A81000000015EP3S","pkCorpdelr":"1222","signer":"顶戴","tsigntime":"2016-07-27 13:44:50","modifier":"PUB_INIT000000249849","modifiedtime":"2016-07-27 13:44:50","custCode":"6240552","dr":"0"}
+2016-07-27 13:45:17,277 [ConsumeMessageThread_17] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000276823385】生成派送费任务成功！
+2016-07-27 13:45:17,279 [ConsumeMessageThread_17] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000276823385】生成省到省中转费任务成功！
+2016-07-27 13:45:17,281 [ConsumeMessageThread_17] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000276823385】生成新操作费任务成功！
+2016-07-27 13:45:17,283 [ConsumeMessageThread_17] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000276823385】生成运输费任务成功！
+2016-07-27 13:45:17,284 [ConsumeMessageThread_17] INFO MqTopicConsumer - ##mq消费：工作单号为【A000276823385】，执行完成，返回Success
+2016-07-27 13:45:17,284 [ConsumeMessageThread_17] INFO MqTopicConsumer - mq消费：耗时统计：MqTopicConsumer ->工作单号【 A000276823385】耗时【13】ms
+2016-07-27 14:28:58,271 [ConsumeMessageThread_18] INFO MqTopicConsumer - message body:{"bTs":"2016-07-27 14:28:32","pkSign":"1003A8100000000N8KN2","wbCode":"A000879857532","fsigntype":"2234","fsignclass":"2153","deliverier":"PUB_INIT000000220427","pkCorpdelr":"1003","signer":"取消发货","tsigntime":"2016-07-27 14:28:31","modifier":"PUB_INIT000000220427","modifiedtime":"2016-07-27 14:28:31","custCode":"6240552","dr":"0"}
+2016-07-27 14:28:58,289 [ConsumeMessageThread_18] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000879857532】生成派送费任务成功！
+2016-07-27 14:28:58,291 [ConsumeMessageThread_18] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000879857532】生成省到省中转费任务成功！
+2016-07-27 14:28:58,295 [ConsumeMessageThread_18] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000879857532】生成新操作费任务成功！
+2016-07-27 14:28:58,297 [ConsumeMessageThread_18] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000879857532】生成运输费任务成功！
+2016-07-27 14:28:58,298 [ConsumeMessageThread_18] INFO MqTopicConsumer - ##mq消费：工作单号为【A000879857532】，执行完成，返回Success
+2016-07-27 14:28:58,298 [ConsumeMessageThread_18] INFO MqTopicConsumer - mq消费：耗时统计：MqTopicConsumer ->工作单号【 A000879857532】耗时【27】ms
+2016-07-27 15:59:46,774 [ConsumeMessageThread_19] INFO MqTopicConsumer - message body:{"bTs":"2016-07-27 15:59:20","pkSign":"1003A8100000000N8M35","wbCode":"A000966756523","fsigntype":"2234","fsignclass":"2153","deliverier":"PUB_INIT000000280334","pkCorpdelr":"1003","signer":"取消发货","tsigntime":"2016-07-27 15:59:16","modifier":"PUB_INIT000000280334","modifiedtime":"2016-07-27 15:59:17","custCode":"6240552","dr":"0"}
+2016-07-27 15:59:46,780 [ConsumeMessageThread_19] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000966756523】生成派送费任务成功！
+2016-07-27 15:59:46,782 [ConsumeMessageThread_19] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000966756523】生成省到省中转费任务成功！
+2016-07-27 15:59:46,785 [ConsumeMessageThread_19] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000966756523】生成新操作费任务成功！
+2016-07-27 15:59:46,787 [ConsumeMessageThread_19] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000966756523】生成运输费任务成功！
+2016-07-27 15:59:46,788 [ConsumeMessageThread_19] INFO MqTopicConsumer - ##mq消费：工作单号为【A000966756523】，执行完成，返回Success
+2016-07-27 15:59:46,788 [ConsumeMessageThread_19] INFO MqTopicConsumer - mq消费：耗时统计：MqTopicConsumer ->工作单号【 A000966756523】耗时【14】ms
+2016-07-27 16:26:47,941 [ConsumeMessageThread_20] INFO MqTopicConsumer - message body:{"bTs":"2016-07-27 16:26:21","pkSign":"1799A81000000005HGT1","wbCode":"A000104508655","fsigntype":"2232","fsignclass":"2153","deliverier":"8967A810000000005P9R","pkCorpdelr":"10459","signer":"他","tsigntime":"2016-07-27 16:26:21","modifier":"PUB_INIT000000270158","modifiedtime":"2016-07-27 16:26:21","custCode":null,"dr":"0"}
+2016-07-27 16:26:47,947 [ConsumeMessageThread_20] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000104508655】生成派送费任务成功！
+2016-07-27 16:26:47,949 [ConsumeMessageThread_20] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000104508655】生成省到省中转费任务成功！
+2016-07-27 16:26:47,951 [ConsumeMessageThread_20] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000104508655】生成新操作费任务成功！
+2016-07-27 16:26:47,953 [ConsumeMessageThread_20] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000104508655】生成运输费任务成功！
+2016-07-27 16:26:47,954 [ConsumeMessageThread_20] INFO MqTopicConsumer - ##mq消费：工作单号为【A000104508655】，执行完成，返回Success
+2016-07-27 16:26:47,954 [ConsumeMessageThread_20] INFO MqTopicConsumer - mq消费：耗时统计：MqTopicConsumer ->工作单号【 A000104508655】耗时【13】ms
+2016-07-27 16:44:00,023 [ConsumeMessageThread_1] INFO MqTopicConsumer - message body:{"pkSign":null,"wbCode":"9278530516","fsigntype":"2232","fsignclass":"2153","deliverier":"1001A8100000005BA2ZG","pkCorpdelr":"1001","signer":"sdf","tsigntime":"2016-07-27 16:44:05","modifier":"PUB_INIT000000239321","modifiedtime":null,"custCode":"6242067","bts":"2016-07-27 16:44:05","dr":"0"}
+2016-07-27 16:44:00,044 [ConsumeMessageThread_1] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【9278530516】生成派送费任务成功！
+2016-07-27 16:44:00,052 [ConsumeMessageThread_1] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【9278530516】生成省到省中转费任务成功！
+2016-07-27 16:44:00,058 [ConsumeMessageThread_1] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【9278530516】生成新操作费任务成功！
+2016-07-27 16:44:00,069 [ConsumeMessageThread_1] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【9278530516】生成运输费任务成功！
+2016-07-27 16:44:00,070 [ConsumeMessageThread_1] INFO MqTopicConsumer - ##mq消费：工作单号为【9278530516】，执行完成，返回Success
+2016-07-27 16:44:00,070 [ConsumeMessageThread_1] INFO MqTopicConsumer - mq消费：耗时统计：MqTopicConsumer ->工作单号【 9278530516】耗时【47】ms
+2016-07-27 17:18:40,858 [ConsumeMessageThread_2] INFO MqTopicConsumer - message body:{"pkSign":null,"wbCode":"9222070804","fsigntype":"2232","fsignclass":"2153","deliverier":"1001A8100000005BA2ZG","pkCorpdelr":"1001","signer":"sdfgfd","tsigntime":"2016-07-27 17:18:01","modifier":"PUB_INIT000000239321","modifiedtime":null,"custCode":"6242067","bts":"2016-07-27 17:18:01","dr":"0"}
+2016-07-27 17:18:40,981 [ConsumeMessageThread_2] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【9222070804】生成派送费任务成功！
+2016-07-27 17:18:40,997 [ConsumeMessageThread_2] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【9222070804】生成省到省中转费任务成功！
+2016-07-27 17:18:41,005 [ConsumeMessageThread_2] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【9222070804】生成新操作费任务成功！
+2016-07-27 17:18:41,011 [ConsumeMessageThread_2] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【9222070804】生成运输费任务成功！
+2016-07-27 17:18:41,012 [ConsumeMessageThread_2] INFO MqTopicConsumer - ##mq消费：工作单号为【9222070804】，执行完成，返回Success
+2016-07-27 17:18:41,013 [ConsumeMessageThread_2] INFO MqTopicConsumer - mq消费：耗时统计：MqTopicConsumer ->工作单号【 9222070804】耗时【156】ms
+2016-07-27 17:31:06,770 [ConsumeMessageThread_3] INFO MqTopicConsumer - message body:{"pkSign":null,"wbCode":"9259940255","fsigntype":"2232","fsignclass":"2153","deliverier":"1001A8100000005BA2ZG","pkCorpdelr":"1001","signer":"sdfg","tsigntime":"2016-07-27 17:31:12","modifier":"PUB_INIT000000239321","modifiedtime":null,"custCode":"6242067","bts":"2016-07-27 17:31:13","dr":"0"}
+2016-07-27 17:31:06,782 [ConsumeMessageThread_3] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【9259940255】生成派送费任务成功！
+2016-07-27 17:31:06,787 [ConsumeMessageThread_3] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【9259940255】生成省到省中转费任务成功！
+2016-07-27 17:31:06,793 [ConsumeMessageThread_3] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【9259940255】生成新操作费任务成功！
+2016-07-27 17:31:06,799 [ConsumeMessageThread_3] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【9259940255】生成运输费任务成功！
+2016-07-27 17:31:06,800 [ConsumeMessageThread_3] INFO MqTopicConsumer - ##mq消费：工作单号为【9259940255】，执行完成，返回Success
+2016-07-27 17:31:06,800 [ConsumeMessageThread_3] INFO MqTopicConsumer - mq消费：耗时统计：MqTopicConsumer ->工作单号【 9259940255】耗时【30】ms
+2016-07-27 17:36:36,366 [ConsumeMessageThread_4] INFO MqTopicConsumer - message body:{"bTs":"2016-07-27 17:36:10","pkSign":"1799A81000000005HGTL","wbCode":"A000130162395","fsigntype":"2232","fsignclass":"2153","deliverier":"8967A810000000005P9R","pkCorpdelr":"10459","signer":"为","tsigntime":"2016-07-27 17:36:10","modifier":"PUB_INIT000000270158","modifiedtime":"2016-07-27 17:36:10","custCode":"6239910","dr":"0"}
+2016-07-27 17:36:36,371 [ConsumeMessageThread_4] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000130162395】生成派送费任务成功！
+2016-07-27 17:36:36,373 [ConsumeMessageThread_4] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000130162395】生成省到省中转费任务成功！
+2016-07-27 17:36:36,375 [ConsumeMessageThread_4] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000130162395】生成新操作费任务成功！
+2016-07-27 17:36:36,377 [ConsumeMessageThread_4] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000130162395】生成运输费任务成功！
+2016-07-27 17:36:36,378 [ConsumeMessageThread_4] INFO MqTopicConsumer - ##mq消费：工作单号为【A000130162395】，执行完成，返回Success
+2016-07-27 17:36:36,378 [ConsumeMessageThread_4] INFO MqTopicConsumer - mq消费：耗时统计：MqTopicConsumer ->工作单号【 A000130162395】耗时【12】ms
+2016-07-27 17:38:25,871 [ConsumeMessageThread_5] INFO MqTopicConsumer - message body:{"bTs":"2016-07-27 17:37:59","pkSign":"1799A81000000005HGTP","wbCode":"A000077069311","fsigntype":"2232","fsignclass":"2153","deliverier":"8967A810000000005P9S","pkCorpdelr":"8967","signer":"儿童","tsigntime":"2016-07-27 17:37:59","modifier":"PUB_INIT000000270158","modifiedtime":"2016-07-27 17:37:59","custCode":null,"dr":"0"}
+2016-07-27 17:38:25,879 [ConsumeMessageThread_5] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000077069311】生成派送费任务成功！
+2016-07-27 17:38:25,881 [ConsumeMessageThread_5] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000077069311】生成省到省中转费任务成功！
+2016-07-27 17:38:25,883 [ConsumeMessageThread_5] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000077069311】生成新操作费任务成功！
+2016-07-27 17:38:25,885 [ConsumeMessageThread_5] INFO AcceptSignTaskServiceImpl - mq生成签收任务：工作单号【A000077069311】生成运输费任务成功！
+2016-07-27 17:38:25,887 [ConsumeMessageThread_5] INFO MqTopicConsumer - ##mq消费：工作单号为【A000077069311】，执行完成，返回Success
+2016-07-27 17:38:25,887 [ConsumeMessageThread_5] INFO MqTopicConsumer - mq消费：耗时统计：MqTopicConsumer ->工作单号【 A000077069311】耗时【16】ms

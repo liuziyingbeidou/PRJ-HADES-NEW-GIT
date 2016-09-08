@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zjs.mapper.task.AcceptSignTaskMapper">
+	<resultMap id="BaseResultMap" type="com.zjs.dto.SignWorkerTask">
+		<result column="ID" property="id" jdbcType="NUMERIC" />
+		<result column="REF_ID" property="refId" jdbcType="VARCHAR" />
+		<result column="TASK_TYPE" property="taskType" jdbcType="NUMERIC" />
+		<result column="TASK_DATA" property="taskData" jdbcType="VARCHAR" />
+		<result column="TASK_EXE_COUNT" property="taskExeCount"
+			jdbcType="NUMERIC" />
+		<result column="STATUS" property="status" jdbcType="NUMERIC" />
+		<result column="EXE_INSTANCE_IP" property="exeInstanceIp"
+			jdbcType="VARCHAR" />
+		<result column="CREATE_TIME" property="createTime" jdbcType="TIMESTAMP" />
+		<result column="UPDATE_TIME" property="updateTime" jdbcType="TIMESTAMP" />
+		<result column="EXE_TIME" property="updateTime" jdbcType="TIMESTAMP" />
+		<result column="YN" property="yn" jdbcType="NUMERIC" />
+	</resultMap>
+	<sql id="Base_Column_List">
+		ID, REF_ID, TASK_TYPE, TASK_DATA, TASK_EXE_COUNT,
+		STATUS,
+		EXE_INSTANCE_IP, CREATE_TIME,
+		UPDATE_TIME, EXE_TIME, YN
+	</sql>
+	<!-- 添加Sign_worker_task_delr 内部核算任务表-->
+	<insert id="insertSignWorkerTaskDelr" parameterType="com.zjs.dto.SignWorkerTask">
+		insert into HDS_SIGN_WORKER_TASK_DELR
+		<trim prefix="(" suffix=")" suffixOverrides=",">
+			ID,
+			<if test="refId != null">
+				REF_ID,
+			</if>
+			<if test="taskType != null">
+				TASK_TYPE,
+			</if>
+			<if test="taskData != null">
+				TASK_DATA,
+			</if>
+			<if test="taskExeCount != null">
+				TASK_EXE_COUNT,
+			</if>
+			<if test="exeInstanceIp != null">
+				EXE_INSTANCE_IP,
+			</if>
+			<if test="status != null">
+				STATUS,
+			</if>
+			CREATE_TIME,
+			UPDATE_TIME,
+			<if test="exeTime != null">
+				EXE_TIME,
+			</if>
+			YN
+		</trim>
+		<trim prefix="values (" suffix=")" suffixOverrides=",">
+			HDS_SIGN_WORKER_TASK_DELR_SEQ.NEXTVAL,
+			<if test="refId != null">
+				#{refId,jdbcType=VARCHAR},
+			</if>
+			<if test="taskType != null">
+				#{taskType,jdbcType=VARCHAR},
+			</if>
+			<if test="taskData != null">
+				#{taskData,jdbcType=VARCHAR},
+			</if>
+			<if test="taskExeCount != null">
+				#{taskExeCount,jdbcType=NUMERIC},
+			</if>
+			<if test="exeInstanceIp != null">
+				#{exeInstanceIp,jdbcType=VARCHAR},
+			</if>
+			<if test="status != null">
+				#{status,jdbcType=NUMERIC},
+			</if>
+			<if test="createTime !=null">
+				#{createTime,jdbcType=TIMESTAMP},
+			</if>
+			SYSDATE,
+			<if test="exeTime != null">
+				#{exeTime,jdbcType=DATE},
+			</if>
+			1
+		</trim>
+	</insert>
+	
+	<!-- 添加Sign_worker_task_prov 省到省中转费任务表-->
+	<insert id="insertSignWorkerTaskProv" parameterType="com.zjs.dto.SignWorkerTask">
+		insert into HDS_SIGN_WORKER_TASK_PROV
+		<trim prefix="(" suffix=")" suffixOverrides=",">
+			ID,
+			<if test="refId != null">
+				REF_ID,
+			</if>
+			<if test="taskType != null">
+				TASK_TYPE,
+			</if>
+			<if test="taskData != null">
+				TASK_DATA,
+			</if>
+			<if test="taskExeCount != null">
+				TASK_EXE_COUNT,
+			</if>
+			<if test="exeInstanceIp != null">
+				EXE_INSTANCE_IP,
+			</if>
+			<if test="status != null">
+				STATUS,
+			</if>
+			CREATE_TIME,
+			UPDATE_TIME,
+			<if test="exeTime != null">
+				EXE_TIME,
+			</if>
+			YN
+		</trim>
+		<trim prefix="values (" suffix=")" suffixOverrides=",">
+			HDS_SIGN_WORKER_TASK_PROV_SEQ.NEXTVAL,
+			<if test="refId != null">
+				#{refId,jdbcType=VARCHAR},
+			</if>
+			<if test="taskType != null">
+				#{taskType,jdbcType=VARCHAR},
+			</if>
+			<if test="taskData != null">
+				#{taskData,jdbcType=VARCHAR},
+			</if>
+			<if test="taskExeCount != null">
+				#{taskExeCount,jdbcType=NUMERIC},
+			</if>
+			<if test="exeInstanceIp != null">
+				#{exeInstanceIp,jdbcType=VARCHAR},
+			</if>
+			<if test="status != null">
+				#{status,jdbcType=NUMERIC},
+			</if>
+			<if test="createTime !=null">
+				#{createTime,jdbcType=TIMESTAMP},
+			</if>
+			SYSDATE,
+			<if test="exeTime != null">
+				#{exeTime,jdbcType=DATE},
+			</if>
+			1
+		</trim>
+	</insert>
+	
+	<!-- 添加Sign_worker_task_oper 新操作费任务表-->
+	<insert id="insertSignWorkerTaskOper" parameterType="com.zjs.dto.SignWorkerTask">
+		insert into HDS_SIGN_WORKER_TASK_OPER
+		<trim prefix="(" suffix=")" suffixOverrides=",">
+			ID,
+			<if test="refId != null">
+				REF_ID,
+			</if>
+			<if test="taskType != null">
+				TASK_TYPE,
+			</if>
+			<if test="taskData != null">
+				TASK_DATA,
+			</if>
+			<if test="taskExeCount != null">
+				TASK_EXE_COUNT,
+			</if>
+			<if test="exeInstanceIp != null">
+				EXE_INSTANCE_IP,
+			</if>
+			<if test="status != null">
+				STATUS,
+			</if>
+			CREATE_TIME,
+			UPDATE_TIME,
+			<if test="exeTime != null">
+				EXE_TIME,
+			</if>
+			YN
+		</trim>
+		<trim prefix="values (" suffix=")" suffixOverrides=",">
+			HDS_SIGN_WORKER_TASK_OPER_SEQ.NEXTVAL,
+			<if test="refId != null">
+				#{refId,jdbcType=VARCHAR},
+			</if>
+			<if test="taskType != null">
+				#{taskType,jdbcType=VARCHAR},
+			</if>
+			<if test="taskData != null">
+				#{taskData,jdbcType=VARCHAR},
+			</if>
+			<if test="taskExeCount != null">
+				#{taskExeCount,jdbcType=NUMERIC},
+			</if>
+			<if test="exeInstanceIp != null">
+				#{exeInstanceIp,jdbcType=VARCHAR},
+			</if>
+			<if test="status != null">
+				#{status,jdbcType=NUMERIC},
+			</if>
+			<if test="createTime !=null">
+				#{createTime,jdbcType=TIMESTAMP},
+			</if>
+			SYSDATE,
+			<if test="exeTime != null">
+				#{exeTime,jdbcType=DATE},
+			</if>
+			1
+		</trim>
+	</insert>
+	
+	<!-- 添加Sign_worker_task_trans 运输费任务表-->
+	<insert id="insertSignWorkerTaskTrans" parameterType="com.zjs.dto.SignWorkerTask">
+		insert into HDS_SIGN_WORKER_TASK_TRANS
+		<trim prefix="(" suffix=")" suffixOverrides=",">
+			ID,
+			<if test="refId != null">
+				REF_ID,
+			</if>
+			<if test="taskType != null">
+				TASK_TYPE,
+			</if>
+			<if test="taskData != null">
+				TASK_DATA,
+			</if>
+			<if test="taskExeCount != null">
+				TASK_EXE_COUNT,
+			</if>
+			<if test="exeInstanceIp != null">
+				EXE_INSTANCE_IP,
+			</if>
+			<if test="status != null">
+				STATUS,
+			</if>
+			CREATE_TIME,
+			UPDATE_TIME,
+			<if test="exeTime != null">
+				EXE_TIME,
+			</if>
+			YN
+		</trim>
+		<trim prefix="values (" suffix=")" suffixOverrides=",">
+			HDS_SIGN_WORKER_TASK_TRANS_SEQ.NEXTVAL,
+			<if test="refId != null">
+				#{refId,jdbcType=VARCHAR},
+			</if>
+			<if test="taskType != null">
+				#{taskType,jdbcType=VARCHAR},
+			</if>
+			<if test="taskData != null">
+				#{taskData,jdbcType=VARCHAR},
+			</if>
+			<if test="taskExeCount != null">
+				#{taskExeCount,jdbcType=NUMERIC},
+			</if>
+			<if test="exeInstanceIp != null">
+				#{exeInstanceIp,jdbcType=VARCHAR},
+			</if>
+			<if test="status != null">
+				#{status,jdbcType=NUMERIC},
+			</if>
+			<if test="createTime !=null">
+				#{createTime,jdbcType=TIMESTAMP},
+			</if>
+			SYSDATE,
+			<if test="exeTime != null">
+				#{exeTime,jdbcType=DATE},
+			</if>
+			1
+		</trim>
+	</insert>
+	
+	<!-- 查询派费任务表 -->
+	<select id="selectSignWorkerTaskDelrCount" parameterType="java.lang.String" resultMap="BaseResultMap">
+		select <include refid="Base_Column_List" />
+	    from HDS_SIGN_WORKER_TASK_DELR t
+        where t.yn = 1
+		and t.ref_id = #{refId,jdbcType=VARCHAR}
+	</select>
+	
+	<!-- 查询省到省中转费任务表 -->
+	<select id="selectSignWorkerTaskProvCount" parameterType="java.lang.String" resultMap="BaseResultMap">
+		select <include refid="Base_Column_List" />
+	    from HDS_SIGN_WORKER_TASK_PROV t
+        where t.yn = 1
+		and t.ref_id = #{refId,jdbcType=VARCHAR}
+	</select>
+	
+	<!-- 查询新操作费任务表 -->
+	<select id="selectSignWorkerTaskOperCount" parameterType="java.lang.String" resultMap="BaseResultMap">
+		select <include refid="Base_Column_List" />
+	    from HDS_SIGN_WORKER_TASK_OPER t
+        where t.yn = 1
+		and t.ref_id = #{refId,jdbcType=VARCHAR}
+	</select>
+	
+	<!-- 查询运输费任务表 -->
+	<select id="selectSignWorkerTaskTransCount" parameterType="java.lang.String" resultMap="BaseResultMap">
+		select <include refid="Base_Column_List" />
+	    from HDS_SIGN_WORKER_TASK_TRANS t
+        where t.yn = 1
+		and t.ref_id = #{refId,jdbcType=VARCHAR}
+	</select>
+</mapper>
+
+
